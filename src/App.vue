@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <div class="container__wrapper">
+
+    <div class="text">
+      <div class="text__wrapper">
+        <div class="text__title"><h1>Liarn to code by<br/> wathing others</h1></div>
+        <div class="text__description">
+          See no exprenced developers solve  problems in real time<br/> 
+          wathing scripted tutoreals is great but understending how <br/>
+          developers think is invaluable
+          </div>
+          <div class="text__description  text__description-mobile">
+          See no exprenced developers solve  problems in real time 
+          wathing scripted tutoreals is great but understending how 
+          developers think is invaluable
+          </div>
+      </div>
+    </div>
+    <formComponent />
+
+    
+    </div>
+  </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import formComponent from "./components/form.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+ components:{
+   formComponent
+ }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+@import"./assets/style.css";
+
 </style>
+
