@@ -80,6 +80,7 @@
      padding: 1rem 8rem;
     text-transform: uppercase;
     border: none;
+    box-shadow: 0 10px 12px #6ccba1;
 }
 .button:hover{
     cursor: pointer;
@@ -110,6 +111,7 @@
     padding-bottom: 1rem;
     padding-left: 4rem;
     padding-right: 4rem;
+    box-shadow: 0 10px 3px #de6769;
 
 }
 .sale__wrapper:hover{
