@@ -132,6 +132,13 @@
 .text__description-mobile{
     display: none;
 }
+ i{
+    color: #de6769;
+    text-align: center;
+    
+}
+
+
 
 /*media*/
 
