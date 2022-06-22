@@ -26,7 +26,7 @@
 }
 .text__title{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -41,7 +41,7 @@
     padding: 1.8rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 
 
 
@@ -59,13 +59,14 @@
    
     padding: 0.8rem 1.2rem;
     color:#cccad5;
-    border: 3px solid #cccad5;
+    border: 2px solid #cccad5;
     border-radius: 3%;
     width: 323px;
     font-size: 12px;
-   
-
-
+}
+.form__input>input:focus{
+    color: #595860;
+    border-color: #605982;
 }
 .btn-wrapper{
     margin-top: 1rem;
@@ -87,7 +88,7 @@
     background-color: #77e2b4;
 }
 .form__massage{
-    color: #d3d1de;
+    color: #bab8c6;
     font-size: 12px;
     margin-top: 0.5rem;
 }
@@ -131,6 +132,10 @@
 }
 .text__description-mobile{
     display: none;
+}
+small{
+   margin-top: 0.5rem;
+    
 }
  i{
     color: #de6769;
